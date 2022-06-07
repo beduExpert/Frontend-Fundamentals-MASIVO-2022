@@ -45,21 +45,20 @@ Aquí encontrarás el elemento a animar. Recuerda investigar en Google cómo rot
   Ahora, crearemos los elementos con clase `.flecha`, `.flecha-contenedor` y `.flecha-animada`, que funcionarán a nuestro favor para mantener centrado el elemento animado.
 
 ```html
-
 <!-- Aquí va el elemento de texto de Top Features -->
 
 <!-- Este es el nuevo elemento que debes insertar -->
-      <div class="row">
-        <div class="offset-md-4 col-md-4">
-          <div class="flecha">
-            <div class="flecha-contenedor">
-              <div class="flecha-animada">
-                <img src="./images/green-arrow.png" alt="Flecha animada">
-              </div>
-            </div>
-          </div>
+<div class="row">
+  <div class="offset-md-4 col-md-4">
+    <div class="flecha">
+      <div class="flecha-contenedor">
+        <div class="flecha-animada">
+          <img src="./images/green-arrow.png" alt="Flecha animada">
         </div>
       </div>
+    </div>
+  </div>
+</div>
 <!-- Aquí abajo están las imágenes -->
 ```
 
@@ -75,7 +74,6 @@ Vamos a agregar las propiedades CSS para que después nos organicemos con las re
 <br/>
 
 ```css
-
 .flecha {
   margin: 0 auto;
   height: 130px;
@@ -119,7 +117,6 @@ Vamos a agregar esta regla.
 <br/>
 
 ```css
-
 .flecha {
   margin: 0 auto;
   height: 130px;
@@ -181,7 +178,6 @@ Ahora, ¿podrías hacer una animación que ahora mueva de arriba a abjo la flech
 <br/>
 
 ```css
-
 .flecha {
   margin: 0 auto;
   height: 130px;
@@ -237,7 +233,6 @@ Ahora, ¿podrías hacer una animación que ahora mueva de arriba a abjo la flech
       }
     }
   }
-
 ```
 <br/>
 

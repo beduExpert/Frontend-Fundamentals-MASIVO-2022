@@ -27,10 +27,9 @@ Las animaciones usan la propiedad `animation`, en conjunto con la regla `@keyfra
 
 ## Elementos de Matcha a copiar en nuestro proyecto
 
-[Ejemplo de elemento en la página de Matcha](../assets/topFeaturesMatcha.png)
+![](../assets/topFeaturesMatcha.png)
 
 Estos elementos hay que insertarlos en una nueva página. Para ello, recordemos nuestra estructura:
-
 
 ```text
 matcha/
@@ -44,7 +43,7 @@ Vamos a agregar nuestros archivos. Aprovecharemos que ya hemos trabajado con SAS
 Debemos crear nuestros archivos. Simplemente abrimos una terminal y nos ubicamos en nuestro directorio de trabajo (/matcha).
 
 
-```text
+```shell
 > pwd
 /Users/bedu/matcha
 

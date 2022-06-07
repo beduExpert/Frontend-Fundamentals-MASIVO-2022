@@ -26,7 +26,7 @@ el archivo de `_global.scss`.
 
 Definimos los colores en `_global.scss`:
 
-```scss{7-9}
+```scss
 /** _global.scss */
 
 /** colores */

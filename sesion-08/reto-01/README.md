@@ -42,6 +42,7 @@ En nuestro archivo `aboutUs.html`, debemos insertar la estuctura de HTML 5:
 ```
 
 ::PRO-TIP
+
 Si usas VS Code, puedes teclear al inicio del archivo `.html` vacío el símbolo **"!"**, y dar la tecla **TAB**. Como la herramienta Emmet está activa por default en VS Code, esto inyectará todos los elementos básicos de un archivo `.html` a tu archivo vacío.
 
 Ahora, hay que insertar varias cosas para que nuestra nueva página funcione como las páginas anteriores que ya están funcionando.
@@ -164,14 +165,13 @@ Tercero, agreguemos la barra de navegación y modifiquemos sus enlaces para que 
 
 Cuarto, agreguemos los estilos que corresponden a nuestra página y barra de navegación, en el archivo `scss/aboutUs.scss`. Recuerda que debes arrancar el compilador en la terminal, en el directorio base del proyecto:
 
-```text
+```shell
 > sass --watch scss/aboutUs.scss aboutUs.css
 ```
 
 Ahora puedes insertar el SCSS y verás como va cambiando los estilos en la pantalla.
 
 ```css
-
 body {
   background-color: #fffbf7 !important;
   margin: 0;
@@ -209,8 +209,6 @@ body {
     border-radius: 5px;
   }
 }
-
-
 ```
 
 <br/>

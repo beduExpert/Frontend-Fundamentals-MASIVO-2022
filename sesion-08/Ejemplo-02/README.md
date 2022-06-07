@@ -26,7 +26,6 @@ Seleccionamos el elemento de texto justo por debajo de las fotografías. Como to
 ::Pro-tip DRY es una filosofía de diseño de software, y es un acrónimo de "Don't Repeat Yourself" (DRY), que indica que el código que escribas debe ser, en lo posible, único en toda la extensión de tu desarrollo. El usar una sola clase para varios elementos que deben tener las mismas propiedades de estilo se ajusta a la filosofía DRY: un solo cambio en el código hace cambios en todos los elementos que tengan esa clase.
 
 ```css
-
 .feature__title__anchor {
   text-decoration: none;
   color: inherit;
@@ -49,7 +48,6 @@ Seleccionamos el elemento de texto justo por debajo de las fotografías. Como to
     }
   }
 }
-
 ```
 
 Ahora expliquemos que hace `transition`. 
