@@ -58,9 +58,7 @@ En esta sesión aprenderás:
 
 - [Reto 04: Cambia los colores ( 10 minutos ) ](./reto-04/README.md)
 
-- [Ejemplo 06: Subiendo el proyecto a Github Pages ( 10 minutos ) ](./Ejemplo%2006/README.md)
-
-- [Postwork](./postwork/README.md)
+- [Ejemplo 06: Subiendo el proyecto a Netlify ( 10 minutos ) ](./Ejemplo%2006/README.md)
 
 <br/>
 

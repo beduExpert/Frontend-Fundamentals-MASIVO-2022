@@ -1,4 +1,4 @@
-# Reto 02. Grid 2 filas con alto de `330px`
+# Reto 02 - Grid 2 filas con alto de `330px`
 
 ## Objetivo
 - Configurar el elemento Grid para una altura específica.
@@ -21,6 +21,8 @@ Regresa la cantidad de columnas a las que realmente necesitamos (2) y agrega
 la cantidad de filas que usaremos (2) teniendo en cuenta que el alto será de
 `330px`. Una vez logrado, ¿cómo se te ocurre que podrías usar la unidad de `fr`
 para indicar el alto de las filas?
+
+<br/>
 
 <details>
   <summary>Posible Solución</summary>
@@ -48,5 +50,6 @@ hacer:
 
 </details>
 
+<br/>
 
 [Siguiente](../reto-03/README.md)

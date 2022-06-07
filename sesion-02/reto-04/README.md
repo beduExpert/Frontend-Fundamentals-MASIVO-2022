@@ -87,8 +87,10 @@ A continuación completa los siguientes requerimientos:
 
 <br/>
 
-No olvides subir tus cambios a Github y revisar que se vean los cambios reflejados en tu página alojada en GitHub Pages.
+No olvides subir tus cambios a Github y realizar el deploy en Netlify.
 
 <br/>
 
-[Postwork](../postwork/README.md)
+[Regresar sesión 02](../README.md)
+
+[Siguiente sesión 03](../../sesion-03/README.md)

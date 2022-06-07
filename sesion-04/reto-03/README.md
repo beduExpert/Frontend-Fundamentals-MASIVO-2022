@@ -1,4 +1,4 @@
-# Reto 03.  Grid con 2 filas y 2 columnas
+# Reto 03 -  Grid con 2 filas y 2 columnas
 ## Objetivos
 - Definir con Grid un arreglo bidimensional.
 - Utilizar las propiedades CSS correctas para lograr una arreglo de filas y columnas.
@@ -22,6 +22,7 @@ propiedades relacionadas en una sola. Las columnas y filas de CSS Grid no son la
 excepción, por lo cual, este reto consiste en obtener el mismo resultado de las
 columnas y filas del grid usando la propiedad de atajo.
 
+<br/>
 
 <details>
   <summary>Posible Solución</summary>

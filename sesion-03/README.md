@@ -47,14 +47,12 @@ En esta sesión aprenderás:
 
 - [Ejemplo  05: Aplicando `position:fixed` ( 10 minutos ) ](./Ejemplo-05/README.md)
 
-- [Postwork ( 20 minutos ) ](./postwork/README.md)
-
 [Regresar](../README.md)
 
 <br/>
 
 # Material Adicional
----
+
 <br/>
 
 ## Flexbox

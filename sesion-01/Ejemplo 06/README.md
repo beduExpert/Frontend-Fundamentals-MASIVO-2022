@@ -1,4 +1,4 @@
-# Subiendo el proyecto a Netlify
+# Ej. 06 - Subiendo el proyecto a Netlify
 
 ## Objetivo
 
@@ -61,4 +61,6 @@ tu primera sesión!
 
  <br/>
 
-[Siguiente](../postwork/README.md)
+[Regresar sesión 01](../README.md)
+
+[Siguiente sesión 02](../../sesion-02/README.md)

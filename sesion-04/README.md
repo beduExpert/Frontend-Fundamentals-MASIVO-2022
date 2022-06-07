@@ -55,8 +55,6 @@ En esta sesión aprenderás:
 
 - [Reto  04: Agregando el contenido de las tarjetas ( 35 minutos ) ](./reto-04/README.md)
 
-- [Postwork ( 20 minutos ) ](./postwork/README.md)
-
 <br/>
 
 [Regresar](../README.md)

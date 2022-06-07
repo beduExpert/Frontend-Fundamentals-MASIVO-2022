@@ -21,7 +21,7 @@ momento de aplicar Flexbox por tu cuenta, vas a necesitar meter el video dentro
 de un contenedor para que luego puedas agregar la imagen debajo y puedas
 alinearlos con Flexbox.
 
-La imagen lo puedes encontrar [aquí](https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png).
+La imagen lo puedes encontrar [aquí](https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png).
 
 <br/>
 
@@ -40,7 +40,7 @@ contenedor y cambia la dirección a `column`. Luego alinea los flex items.
   <article class="explanatory-video">
     <video><!-- Fuentes del video --></video>
     <img
-      src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
+      src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png"
       alt="See how it works"
     />
   </article>

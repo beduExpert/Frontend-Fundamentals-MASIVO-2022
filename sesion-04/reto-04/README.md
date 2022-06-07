@@ -22,6 +22,8 @@ mouse sobre la imagen de la derecha de cada tarjeta (si deseas averiguar cómo
 lograr ese efecto, genial, solo recuerda que no es la prioridad de este
 challenge).
 
+<br/>
+
 > TIP:
 > * Recuerda que puedes obtener el link de las imágenes, inspeccionando la página
   con el Dev Tools del navegador.
@@ -46,7 +48,7 @@ Este es el código completo.
     <div class="feature-content">
       <figure>
         <img
-          src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_publish.png"
+          src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-1.png"
           alt="Publish icon"
         />
       </figure>
@@ -60,7 +62,7 @@ Este es el código completo.
     <div class="feature-image">
       <figure>
         <img
-          src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_publish.png"
+          src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
           alt="Publish example"
         />
       </figure>
@@ -70,7 +72,7 @@ Este es el código completo.
     <div class="feature-content">
       <figure>
         <img
-          src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_site_traffic.png"
+          src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png"
           alt="Site traffic icon"
         />
       </figure>
@@ -84,7 +86,7 @@ Este es el código completo.
     <div class="feature-image">
       <figure>
         <img
-          src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_site_traffic.png"
+          src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png"
           alt="Site traffic example"
         />
       </figure>
@@ -94,7 +96,7 @@ Este es el código completo.
     <div class="feature-content">
       <figure>
         <img
-          src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_capture.png"
+          src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
           alt="Capture icon"
         />
       </figure>
@@ -108,7 +110,7 @@ Este es el código completo.
     <div class="feature-image">
       <figure>
         <img
-          src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_capture.png"
+          src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png"
           alt="Capture example"
         />
       </figure>
@@ -118,7 +120,7 @@ Este es el código completo.
     <div class="feature-content">
       <figure>
         <img
-          src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_roi.png"
+          src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png"
           alt="ROI icon"
         />
       </figure>
@@ -132,7 +134,7 @@ Este es el código completo.
     <div class="feature-image">
       <figure>
         <img
-          src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_roi.png"
+          src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
           alt="ROI example"
         />
       </figure>
@@ -213,4 +215,6 @@ Este es el código completo.
 
 <br/>
 
-[Siguiente](../postwork/README.md)
+[Regresar sesión 04](../README.md)
+
+[Siguiente sesión 05](../../sesion-05/README.md)

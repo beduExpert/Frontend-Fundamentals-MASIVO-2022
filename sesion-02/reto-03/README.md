@@ -5,6 +5,7 @@
 
 ---
 <br/>
+
 ## REQUISITOS
 - Tener Git Bash si usas Windows.
 - Tener conocimientos básicos de HTML y CSS
@@ -22,21 +23,19 @@ Nuestra barra de navegación va tomando forma, pero, ¿qué tal si vamos alinean
 
 
 ```css
+.navbar {
+  width: 70%;
+  text-align: left;
+  color: #025157;
+  font-weight: 500;
+}
 
-  .navbar {
-    width: 70%;
-    text-align: left;
-    color: #025157;
-    font-weight: 500;
-  }
-
-  .actions {
-    width: 15%;
-    text-align: left;
-    font-size: 14px;
-    font-weight: 600;
-  }
-
+.actions {
+  width: 15%;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
 ```
 
 

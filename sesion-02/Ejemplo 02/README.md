@@ -196,7 +196,7 @@ lo podemos solucionar agrandando su altura al 100% del contendor:
 
 ```css
 .logo > img {
-  height: 100%;
+  width: 15%;
 }
 ```
 
@@ -224,8 +224,7 @@ Wohoo!! Finalmente hemos terminado nuestra barra de navegación. ¿Qué te parec
 Interesante todo lo que tienes que hacer para poder darle la forma que deseas,
 ¿no?. Como mencionado anteriormente, existen otras técnicas que hacen esto de
 una manera mucho más sencilla pero la discutiremos en su momento. No olvides
-subir tus cambios a Github y revisar que se vean los cambios reflejados en tu
-página alojada en GitHub Pages.
+subir tus cambios a Github y realizar el deploy en Netlify.
 
 <br/>
 

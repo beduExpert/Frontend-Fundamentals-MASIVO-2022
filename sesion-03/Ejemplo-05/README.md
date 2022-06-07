@@ -92,7 +92,7 @@ de poner ahora un margen superior de `285px` para conservar el aspecto que tení
 antes de volver nuestra barra de navegación fija.
 
 ```css
-main {
+.main {
   margin-top: 285px;
   text-align: center;
 }
@@ -100,4 +100,6 @@ main {
 
 <br/>
 
-[Siguiente](../postwork/README.md)
+[Regresar sesión 03](../README.md)
+
+[Siguiente sesión 04](../../sesion-04/README.md)

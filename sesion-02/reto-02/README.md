@@ -52,7 +52,7 @@ que englobe a todo nuestro contenido y aplicar el margen a dicho contenedor.
     <p class="texto-promocional">Start publishing today with a <strong>free 7-day trial.</strong></p>
     <p class="texto-promocional"><strong>No credit card</strong> required.</p>
 
-    <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="Captcha de Capterra">
+    <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="Captcha de Capterra">
   </section>
 
 ```
@@ -64,20 +64,20 @@ Ahora agregaremos el CSS que necesitamos.
 Para nuestro `<header>`, una clase `.header`. Nota que estamos usando una versión abreviada (atajo) de la propiedad `margin`, ahora de tres números:
 
 ```css
-    .header {
-        margin: 40px 20px 0;
-        font-size: 0;
-    }
+.header {
+  margin: 40px 20px 0;
+  font-size: 0;
+}
 ```
 <br/>
 
 Este es el estilo y margen para el contenedor `<section>` con clase `.main`:
 
 ```css
-    .main {
-    margin-top: 140px;
-    text-align: center;
-    }
+.main {
+  margin-top: 140px;
+  text-align: center;
+}
 ```
 
 Con este cambio en el CSS, así como incorporando un **contenedor** en nuestra sección inicial, logramos un mejor control de nuestros elementos en pantalla.

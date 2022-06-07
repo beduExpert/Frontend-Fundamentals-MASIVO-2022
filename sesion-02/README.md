@@ -34,8 +34,6 @@ En esta sesión aprenderás:
 
 - [Reto  04: Agregando estilos restantes ( 25 minutos ) ](./reto-04/README.md)
 
-- [Postwork](./postwork/README.md)
-
 <br/>
 
 [Regresar](../README.md)

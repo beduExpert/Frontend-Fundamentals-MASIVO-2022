@@ -1,4 +1,4 @@
-# Grid con 3 columnas iguales
+# Reto 01 - Grid con 3 columnas iguales
 
 ## Objetivo
 - Utilizar las propiedades CSS para definir columnas con Grid.
@@ -11,6 +11,8 @@
 Queremos indicar que nuestra grid va a contener 3 columnas del mismo ancho
 relativo al espacio disponible en la pantalla. ¿Cómo lo lograrías usando la
 función `repeat(cantidad, tamaño)`?
+
+<br/>
 
 <details>
   <summary>Posible Solución</summary>

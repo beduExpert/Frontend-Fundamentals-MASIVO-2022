@@ -1,10 +1,10 @@
-## Reto 04 - Agregando una imagen
+# Reto 03 - Agregando una imagen
 
 ## Objetivos
 1. Insertar imágenes en nuestro proyecto.
 ## Desarrollo
 
-Es tu turno de agregar la última parte de la estructura que tenemos pensado para esta sesión: la imagen. Esta la puedes obtener desde este [link](https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png). También puedes comentar el contenido del formulario de práctica que hicimos en la actividad anterior.
+Es tu turno de agregar la última parte de la estructura que tenemos pensado para esta sesión: la imagen. Esta la puedes obtener desde este [link](https://ignos.blog/wp-content/uploads/2021/04/capterra.png). También puedes comentar el contenido del formulario de práctica que hicimos en la actividad anterior.
 
 <br/>
 
@@ -20,7 +20,7 @@ Es tu turno de agregar la última parte de la estructura que tenemos pensado par
 ```html
 <body>
   <!-- Aqui va el html que hemos escrito hasta ahora-->
-  <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="imagen capterra" />
+  <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" />
 </body>
 ```
 

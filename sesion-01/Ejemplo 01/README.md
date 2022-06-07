@@ -120,11 +120,11 @@
    del archivo que deseas usar. Para este caso, crearemos solo uno llamado
    `index.html` (en este caso _.html_ es la extensión que usaremos).
 
-   ```bash
-   $ touch index.html # Crea archivo "index.html"
-   $ ls # Lista contenido
-   index.html
-   ```
+      ```bash
+      $ touch index.html # Crea archivo "index.html"
+      $ ls # Lista contenido
+      index.html
+      ```
 
    2. Agregar archivos a Git (en la parte de Staging)
 

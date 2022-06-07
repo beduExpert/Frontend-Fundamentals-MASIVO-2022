@@ -8,7 +8,7 @@
 <br/>
 
 ## Requisitos
--Tener instalado Visual Studio Code
+- Tener instalado Visual Studio Code
 
 ---
 <br/>

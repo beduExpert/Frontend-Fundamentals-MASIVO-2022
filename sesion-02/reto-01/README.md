@@ -25,7 +25,7 @@ semántico usarías?
 
 Teniendo en cuenta lo siguiente:
 
-- El link de la imagen del logo es: `https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg`
+- El link de la imagen del logo es: `https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png`
 - El menú de navegación se puede lograr con una lista desordenada que en HTML se
   representa a través de la etiqueta [`<ul></ul>`](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ul).
 - La acción `Sign In` es un link que apunta a la dirección `/login` y la acción
@@ -43,11 +43,10 @@ Teniendo en cuenta lo siguiente:
 <p>
 
 ```html
-
 <header class="header">
   <!-- Logo con link a la página principal -->
   <a href="/">
-    <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha"/>
+    <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha"/>
   </a>
   <!-- Menú de navegación -->
   <nav>
@@ -65,7 +64,6 @@ Teniendo en cuenta lo siguiente:
     <button>Start free trial</button>
   </div>
 </header>
-
 ```
 
 </p>
