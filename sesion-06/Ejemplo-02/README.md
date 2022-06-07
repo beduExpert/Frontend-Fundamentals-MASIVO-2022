@@ -1,7 +1,7 @@
 # Ej. 02 - Agregando un carrusel
 
 ## Objetivo
-1. Configurar en nuestro proyecto uno de los elementos más populares de esta librería: el carrusel.
+- Configurar en nuestro proyecto uno de los elementos más populares de esta librería: el carrusel.
 
 ## Requisitos
 - Tener instalado Visual Studio Code.
@@ -11,89 +11,104 @@ Vamos a insertar un carrousel en nuestra sección de historias de éxito, y crea
 
 Primero, observa cómo la documentación nos indica qué cosas componen nuestro [carrusel](https://getbootstrap.com/docs/5.1/components/carousel/). El tipo de carrusel que insertaremos en el proyecto es el denominado "[with indicators](https://getbootstrap.com/docs/5.1/components/carousel/#with-indicators)".
 
-Primer paso: vamos a comentar el código previo. Este es el que habías propuesto para una de las tarjetas de historias de éxito.
+Primero agrega la sección de historias de éxito:
 
 ```html
-<article class="stories-carousel">
-  <!-- <div class="card">
-    <div class="card-media">
-      <figure>
-        <img
-          src="https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png"
-          alt="Everly worker"
-        />
-      </figure>
-      <div class="company">
-        <img
-          src="https://getmatcha.com/wp-content/uploads/2019/05/everly_logo_blue_v3_x60@2x.png"
-          alt="Everly"
-        />
-      </div>
-    </div>
-    <div class="card-body">
-      <h4>Everly</h4>
-      <h3>
-        Early-Stage CPG Brand Increases Lead Conversion 20x, Ecommerce
-        Revenue 20%
-      </h3>
-      <div class="results">
-        <img
-          src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_cart.png"
-          alt="Cart icon"
-        />
-        <p>22% of monthly revenue influenced by content</p>
-      </div>
-    </div>
-    <div class="card-footer">
-      <button>See Case Study</button>
-    </div>
-  </div> -->
-</article>
+<section class="success-stories">
+  <article class="overview">
+    <h2>Growing ecommerce brands rely on Matcha.</h2>
+    <p>
+      Are you tired of wasting time publishing blog articles to only see a
+      trickle of traffic and no impact on sales? Join hundreds of business
+      owners and ecommerce marketers who rely on Matcha for quality content
+      and consistent performance from their blogs.
+    </p>
+    <button>
+      Who Uses Matcha?
+    </button>
+    <figure>
+      <img src="https://getmatcha.com/wp-content/uploads/2019/09/brands_group.png" alt="Brands">
+    </figure>
+  </article>
+  <article class="stories-carousel">
+  </article>
+</section>
 ```
-Segundo: agrega el código del carrusel que copiaste de la documentación de Bootstrap, dentro de la etiqueta `<article>`, y en este punto agregaremos unas clases de Bootstrap a la sección, lo que nos permitirá mejorar la interacción en pantallas pequeñas.
+
+```css
+.success-stories {
+  background-color: #a1d683;
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.success-stories .overview {
+  flex: 2;
+  padding-right: 100px;
+}
+
+.success-stories .overview h2 {
+  font-family: "Alegreya", serif;
+  font-size: 51px;
+  line-height: 61px;
+  color: #025157;
+}
+
+.success-stories .overview p {
+  color: #343434;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.success-stories .overview button {
+  font-size: 14px;
+  padding: 12px 12px 6px 12px;
+  border-radius: 8px;
+  height: 45px;
+  font-weight: 600;
+  margin-left: 0;
+}
+
+.success-stories .overview img {
+  width: 500px;
+  max-width: 100%;
+}
+```
+
+Segundo agrega el código del carrusel que copiaste de la documentación de Bootstrap, dentro de `<article class="stories-carousel">`, y en este punto agregaremos unas clases de Bootstrap a la sección, lo que nos permitirá mejorar la interacción en pantallas pequeñas.
 
 ```html
 <section class="card-container">
-    <div class="container">
-      <div class="row p-2">
-        <!-- Agrega estas clases de Bootstrap -->
-        <article class="col-12 col-md-8 comments">
-          <!-- Este es el contenido de texto de esta sección-->
-        </article>
-
-        <!-- Agrega estas clases de Bootstrap -->
-        <article class="col-12 col-md-4 success-stories">
-          <!-- Aqui insertamos el carrusel -->
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </article>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
       </div>
     </div>
-  </section>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
 ```
 
 Buscando entender el contenido del HTML de Bootstrap para este carrusel, podemos comentar algunas cosas sobre este código:

@@ -109,4 +109,6 @@ Al realizar este último comando tus cambios estarán reflejados en Netlify y po
 
 <br/>
 
-[Siguiente](../postwork/README.md)
+[Regresar sesión 07](../README.md)
+
+[Siguiente sesión 08](../../sesion-08/README.md)

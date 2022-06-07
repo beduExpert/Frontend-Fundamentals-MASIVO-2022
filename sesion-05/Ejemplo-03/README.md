@@ -4,7 +4,7 @@
 Acomodar los elementos en distintos anchos de pantalla incluye no solo el acomodo sino también las dimensiones que deben tomar cada elemento de texto y/o imagen en nuestro contenido,
 ## Objetivos
 
-1. Ajustar la presentación de imágenes mediante el uso de media-queries.
+- Ajustar la presentación de imágenes mediante el uso de media-queries.
 ## Requisitos
 
 - Tener instalado Visual Studio Code.

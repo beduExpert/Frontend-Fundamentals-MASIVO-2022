@@ -16,7 +16,7 @@ En esta sesión aprenderás:
 - Configurar tu proyecto para usar un framework de CSS: Bootstrap.
 
 ## Requisitos
-1. Tener Visual Studio Code instalado
+- Tener Visual Studio Code instalado
 
 ## Organización de la clase
 
@@ -45,8 +45,6 @@ En esta sesión aprenderás:
 - [Reto  05: Recuperando el contenido de tu NavBar ( 10 minutos ) ](./reto-05/README.md)
 
 - [Reto  06: Recuperando los estilos de tu NavBar ( 10 minutos ) ](./reto-06/README.md)
-
-- [Postwork](./postwork/README.md)
 
 <br/>
 

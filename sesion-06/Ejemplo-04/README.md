@@ -11,32 +11,35 @@
 Vamos a agregar la botonera de Bootstrap, y la modificaremos como lo requiramos. Entra a [Bootstrap](https://getbootstrap.com/docs/5.1/components/button-group/#basic-example) y copia la botonera básica, que vamos a insertar en un nuevo contenedor al interior de `<main>`.
 
 ```html
-    <main class="header">
-      <article>
-        <h1>Free During COVID-19</h1>
-        <p>
-          Matcha is on a mission to make your blog the biggest asset for your
-          business’ growth, especially in today’s context. That’s why we’re
-          making the Matcha Platform free forever to all new users who sign up
-          during COVID-19.
-        </p>
-      </article>
-      <!-- Este es el nuevo código con la botonera -->
-      <div class="platforms">
-        <h5>MY BLOG IS POWERED BY</h5>
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-secondary">
-            <img src="..." alt="Shopify icon"> <!-- Este es el ícono de Shopify-->
-            Shopify
-          </button>
-          <button type="button" class="btn btn-secondary">
-            <img src="..." alt="Wordpress icon"> <!-- Este es el ícono de Wordpress-->
-            Wordpress
-          </button>
-          <button type="button" class="btn btn-secondary">Other</button>
-        </div>
-      </div>
-    </main>
+<main class="header">
+  <article>
+    <h1>Free During COVID-19</h1>
+    <p>
+      Matcha is on a mission to make your blog the biggest asset for your
+      business’ growth, especially in today’s context. That’s why we’re
+      making the Matcha Platform free forever to all new users who sign up
+      during COVID-19.
+    </p>
+  </article>
+  <!-- Este es el nuevo código con la botonera -->
+  <div class="platforms">
+    <h5>MY BLOG IS POWERED BY</h5>
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-secondary">
+        <img src="..." alt="Shopify icon"> <!-- Este es el ícono de Shopify-->
+        Shopify
+      </button>
+      <button type="button" class="btn btn-secondary">
+        <img src="..." alt="Wordpress icon"> <!-- Este es el ícono de Wordpress-->
+        Wordpress
+      </button>
+      <button type="button" class="btn btn-secondary">Other</button>
+    </div>
+  </div>
+</main>
+```
+
+```css
 ```
 
 <br/>
@@ -73,20 +76,20 @@ Nota que las imágenes que van dentro del botón deben ser pequeñas pero con su
 Ahora , lo único que debes hacer es utilizar la etiqueta `<img>` y agregar en la propiedad `src` la ruta a ese archivo.
 
 ```html
-    <div class="platforms">
-      <h5>MY BLOG IS POWERED BY</h5>
-      <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary">
-          <img src="./icons/shopify.svg" alt="Shopify icono">
-          Shopify
-        </button>
-        <button type="button" class="btn btn-secondary">
-          <img src="./icons/wordpress.svg" alt="Wordpress icon">
-          Wordpress
-        </button>
-        <button type="button" class="btn btn-secondary">Right</button>
-      </div>
-    </div>
+<div class="platforms">
+  <h5>MY BLOG IS POWERED BY</h5>
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-secondary">
+      <img src="./icons/shopify.svg" alt="Shopify icono">
+      Shopify
+    </button>
+    <button type="button" class="btn btn-secondary">
+      <img src="./icons/wordpress.svg" alt="Wordpress icon">
+      Wordpress
+    </button>
+    <button type="button" class="btn btn-secondary">Right</button>
+  </div>
+</div>
 ```
 
 <br/>

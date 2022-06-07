@@ -28,6 +28,4 @@ En esta sesión aprenderás:
 
 - [Reto 02: Agrega la tercera columna ( 25 minutos ) ](./reto-02/README.md)
 
-- [Postwork](./postwork/README.md)
-
 [Regresar](../README.md)

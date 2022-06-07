@@ -26,7 +26,7 @@ mejorar su apariencia?
     display: none;
   }
 
-  main {
+  .main {
     margin-top: 130px;
   }
 

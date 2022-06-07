@@ -4,11 +4,11 @@
 
 El framework de Bootstrap también utiliza un lenguaje de programación para lograr que algunos de sus elementos puedan funcionar correctamente. Este paso dentro de tu proyecto es importante para que la funcionalidad que necesitas se encuentre presente siempre.
 ## Objetivos
-1. Insertar los scripts de Javascript que utiliza Bootstrap.
+- Insertar los scripts de Javascript que utiliza Bootstrap.
 
 ## Requisitos
 
-1. Tener instalado Visual Studio Code.
+- Tener instalado Visual Studio Code.
 
 ## Desarrollo
 
@@ -35,10 +35,19 @@ Si reduces la pantalla en la vista responsive del navegador, observarás que la 
 Esto se debe a los estilos que establecimos en el media query. Hay que modificarlos de esta manera:
 
 ```css
+@media (max-width: 991px) {
   .actions,
   .navbar {
     text-align: center;
   }
+}
+
+@media (max-width: 575px) {
+  .actions,
+  .navbar {
+    text-align: center;
+  }
+}
 ```
 Ahora, nuestra barra de navegación en pantallas pequeñas se ve correctamente alineada.
 

@@ -71,113 +71,139 @@ La barra de navegación debe ser igual a la del archivo `index.html`. Para ello,
 <!-- pricing.html -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1.0,user-scalable=no"
-    />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Matcha - Pricing</title>
+    <!-- Agregamos la nueva página de estilos -->
     <link rel="stylesheet" type="text/css" href="./pricing.css" />
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./platform.html">Platform</a>
-            </li>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #fffbf7;">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">
+                <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Platform</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                </ul>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Customers</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resources</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-
-          </ul>
-          <div class="actions">
-            <a href="#">Sign In</a>
-            <button>Start Free Trial</button>
-          </div>
+                <div class="actions">
+                    <a href="#">Sign In</a>
+                    <button>Start Free Trial</button>
+                </div>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
 ```
 Estos son los estilos de nuestra navbar:
 
 ```css
 /** pricing.css */
-  @import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
 
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  body {
+h1 {
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+
+.header p {
+    color: #46484c;
+    max-width: 680px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+}
+
+main {
+    margin-top: 285px;
+    text-align: center;
+}
+
+body {
     background-color: #fffbf7;
     font-family: "Open Sans", sans-serif;
-  }
+}
 
-  .navbar {
+.logo {
+    width: 15%;
+}
+
+.logo>img {
+    width: 15%;
+}
+
+.navbar {
     background-color: #fffbf7;
-  }
+}
 
-  .navbar-light .nav-item .nav-link {
+.navbar-light .nav-item .nav-link {
     color: #025157;
-  }
+}
 
-  .navbar-light .navbar-toggler {
+.navbar-light .navbar-toggler {
     border-color: #025157;
-  }
+}
 
-  .navbar-light .navbar-toggler-icon {
+.navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  }
+}
 
-  .actions {
+.actions {
     text-align: right;
     font-weight: 600;
     font-size: 14px;
-  }
+}
 
-  .actions > * {
+.actions>* {
     margin-right: 10px;
     margin-left: 10px;
-  }
+}
 
-  .actions a {
+.actions a {
     color: #67b54b;
-  }
+}
 
-  .actions button {
+.actions button {
     color: white;
     background-color: #67b54b;
     padding-left: 14px;
@@ -186,8 +212,7 @@ Estos son los estilos de nuestra navbar:
     padding-bottom: 12px;
     border: 0;
     border-radius: 5px;
-  }
-
+}
 ```
 
 Con estos estilos y estructura extraídas de nuestro `index.html` obtenemos la

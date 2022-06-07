@@ -10,12 +10,12 @@
 
 Recuerdas que la barra de navegación tenía un posicionamiento fijo en la parte superior aún y cuando estemos haciendo scroll. ¿Has notado que este comportamiento ya no está presente? ¿Puedes solucionarlo?
 
-:::tip
+::TIP
 
 Al ser este un caso común, Bootstrap tiene clases utilitarias que pueden ayudar
 a lograr este comportamiento. Revisa [esta sección de navbar de la documentación](https://getbootstrap.com/docs/5.1/components/navbar/#placement) para que te des una idea de qué podrías usar.
 
-:::
+::
 
 <details>
   <summary>Posible solución</summary>

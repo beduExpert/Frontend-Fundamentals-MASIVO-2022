@@ -33,6 +33,4 @@ En esta sesión aprenderás:
 
 - [Reto 05: Agregando la segunda columna de nuestras FAQ ( 15 minutos ) ](./reto-05/README.md)
 
-- [Postwork](./postwork/README.md)
-
 [Regresar](../README.md)

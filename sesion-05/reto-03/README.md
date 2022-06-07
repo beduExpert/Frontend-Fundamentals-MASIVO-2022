@@ -1,7 +1,7 @@
 # Reto 03 - Cambiando el flujo del formulario de registro en la sección de publicidad
 
 ## Objetivo
-1. Usar Flexbox para controlar la orientación y acomodo del contenido.
+- Usar Flexbox para controlar la orientación y acomodo del contenido.
 
 ## Requisitos
 - Tener instalado Visual Studio Code

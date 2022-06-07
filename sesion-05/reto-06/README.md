@@ -13,6 +13,8 @@
 
 La barra de navegación ya tiene nuestro contenido, pero en definitiva no es lo que necesitamos. ¿Podrías agregar o modificar los estilos y revisar qué tan bien se ve en pantallas medianas y grandes?
 
+<br/>
+
 <details>
   <summary>Posible solución</summary>
 
@@ -24,13 +26,13 @@ pantalla, en lugar de solo una parte. Si analizamos los estilos que tiene la eti
 Y como bien indican las herramientas de desarrollo, son estilos que se aplicaron
 en el archivo `styles.css` que nosotros creamos.
 
-:::tip
+::TIP
 
 ¿Por qué se puede haber originado este error? Resulta que Bootstrap utiliza una
 clase llamada `navbar` para ponerle sus propios estilos, y nosotros
 coincidentemente usamos el mismo nombre. Sin embargo, al momento que pusimos los estilos de Bootstrap antes que el nuestro (cuando incluimos las etiquetas `<link />` en el HTML), nuestros valores de propiedades CSS en los estilos predominan sobre los de Bootstrap a pesar de tener el mismo nombre.
 
-:::
+::
 
 Eliminando el ancho de la clase `.navbar` quedaría así:
 
@@ -59,12 +61,12 @@ Quitando la clase `bg-light` que está añadida a la etiqueta `<nav></nav>` recu
 </nav>
 ```
 
-:::tip
+::TIP
 
 Si deseas saber que otras clases relacionadas con los colores de fondo existen
 en Bootstrap, puedes consultar [esta sección de la documentación](https://getbootstrap.com/docs/5.1/utilities/background/).
 
-:::
+::
 
 Ahora procedamos a corregir la alineación del menú de navegación, ya que
 aparece junto al logo en la parte izquierda de la pantalla y debería estar
@@ -82,12 +84,12 @@ reemplazaremos la clase `mr-auto` por `mx-auto`:
 </ul>
 ```
 
-:::tip
+::TIP
 
 Si deseas saber qué otras clases utilitarias relacionas a espaciado que tiene
 Bootstrap para ti, puedes revisar [esta sección de la documentación](https://getbootstrap.com/docs/5.1/utilities/spacing/).
 
-:::
+::
 
 Resultando en:
 
@@ -120,12 +122,12 @@ usamos Bootstrap, podemos hacer uso de una clase llamada `justify-content-end`:
 </form>
 ```
 
-:::tip
+::TIP
 
 Si deseas saber qué otras clases relacionadas a Flexbox tiene Bootstrap para ti,
 puedes revisar [esta sección de la documentación](https://getbootstrap.com/docs/5.1/utilities/flex/).
 
-:::
+::
 
 Con estos cambios la mayoría de estilos debería de volver a verse similar a como
 lo teníamos antes:
@@ -155,6 +157,9 @@ Hemos terminado con la vista desktop. Intenta usar el emulador móvil en tu nave
 
 </details>
 
+<br/>
 
-[Siguiente](../postwork/README.md)
+[Regresar sesión 05](../README.md)
+
+[Siguiente sesión 06](../../sesion-06/README.md)
 

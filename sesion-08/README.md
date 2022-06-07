@@ -24,6 +24,4 @@ En esta sesión aprenderás:
 
 - [Reto 03: Agregando una animación ( 35 minutos ) ](./reto-03/README.md)
 
-- [Postwork ( 20 minutos ) ](./postwork/README.md)
-
 [Regresar](../README.md)

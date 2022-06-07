@@ -14,6 +14,8 @@
 
 ![Página Pricing finalizada](../assets/pricing-final.png)
 
+<br/>
+
 <details>
   <summary>Posible solución</summary>
 
@@ -95,7 +97,12 @@ Insertemos en nuestro código el resto del contenido de las FAQ's en el acordeó
 
 </details>
 
-Ahora nuestro proyecto está casi completo.
 <br/>
 
-[Siguiente](../postwork/README.md)
+Ahora nuestro proyecto está casi completo.
+
+<br/>
+
+[Regresar sesión 06](../README.md)
+
+[Siguiente sesión 07](../../sesion-07/README.md)
