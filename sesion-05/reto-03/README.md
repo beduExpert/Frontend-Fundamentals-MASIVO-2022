@@ -37,6 +37,19 @@ horizontal (`row`), para mejorar esta experiencia es necesario volverlo vertical
   .publish > form > div > input {
     width: 65%;
   }
+
+  .promo {
+    flex-direction: column;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
 }
 ```
 
