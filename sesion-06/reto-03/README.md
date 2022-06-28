@@ -144,7 +144,6 @@ Y los estilos de CSS quedarían así, agregando las modificaciones de las dos ta
 @media (max-width: 575px) {
   .success-stories {
     flex-direction: column;
-    p
 }
 ```
 
