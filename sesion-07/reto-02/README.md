@@ -87,7 +87,7 @@ Esto probablemente ya lo has venido haciendo muchas veces, pero no está demás 
 Agrega tus cambios realizados a git:
 
 ```bash
-$ git add -A
+$ git add .
 ```
 
 Agrega un mensaje descriptivo a tu nueva versión:

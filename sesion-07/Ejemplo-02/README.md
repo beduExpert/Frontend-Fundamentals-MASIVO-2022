@@ -29,7 +29,7 @@ columnas. Comencemos por agregar el contenido de la primera columna:
       <article class="process-list">
         <div class="process">
           <div class="process-icon">
-            <img src="./icons/build.svg" alt="Build icon" />
+            <img src="./icons/build.png" alt="Build icon" />
           </div>
           <div class="process-description">
             <h3>Build</h3>
@@ -38,7 +38,7 @@ columnas. Comencemos por agregar el contenido de la primera columna:
         </div>
         <div class="process">
           <div class="process-icon">
-            <img src="./icons/attract.svg" alt="Attract icon" />
+            <img src="./icons/attract.png" alt="Attract icon" />
           </div>
           <div class="process-description">
             <h3>Attract</h3>
@@ -47,7 +47,7 @@ columnas. Comencemos por agregar el contenido de la primera columna:
         </div>
         <div class="process">
           <div class="process-icon">
-            <img src="./icons/convert.svg" alt="Convert icon" />
+            <img src="./icons/convert.png" alt="Convert icon" />
           </div>
           <div class="process-description">
             <h3>Convert</h3>
@@ -410,8 +410,7 @@ Por último, agreguemos los estilos del botón:
 
   button {
     height: auto;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-radius: 8px;
     padding: 12px;
     width: 180px;
     margin-bottom: 15px;

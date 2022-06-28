@@ -23,7 +23,11 @@ El segundo estado que utilizaremos es cuando el puntero del ratón pasa por enci
 
 Seleccionamos el elemento de texto justo por debajo de las fotografías. Como todos tienen la misma clase, con que hagamos el cambio una sola vez en el código nos permitirá cambiar también los otros dos textos.
 
-::Pro-tip DRY es una filosofía de diseño de software, y es un acrónimo de "Don't Repeat Yourself" (DRY), que indica que el código que escribas debe ser, en lo posible, único en toda la extensión de tu desarrollo. El usar una sola clase para varios elementos que deben tener las mismas propiedades de estilo se ajusta a la filosofía DRY: un solo cambio en el código hace cambios en todos los elementos que tengan esa clase.
+:: TIP
+
+DRY es una filosofía de diseño de software, y es un acrónimo de "Don't Repeat Yourself" (DRY), que indica que el código que escribas debe ser, en lo posible, único en toda la extensión de tu desarrollo. El usar una sola clase para varios elementos que deben tener las mismas propiedades de estilo se ajusta a la filosofía DRY: un solo cambio en el código hace cambios en todos los elementos que tengan esa clase.
+
+::
 
 ```css
 .feature__title__anchor {
