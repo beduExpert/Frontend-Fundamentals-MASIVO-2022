@@ -28,7 +28,7 @@ Esta es una imagen de cómo debe iniciar tu animación.
 ![Estado inicial de la animación](../assets/flecha_animada.png)
 <br/>
 
-Aquí encontrarás el elemento a animar. Recuerda investigar en Google cómo rotar elementos con CSS.
+Aquí encontrarás el elemento a animar. Recuerda investigar en Google cómo rotar elementos con CSS, también puedes buscar `keyframes en w3schools`.
 
 ![Flecha para animar](../assets/green-arrow.png)
 
@@ -53,7 +53,7 @@ Aquí encontrarás el elemento a animar. Recuerda investigar en Google cómo rot
     <div class="flecha">
       <div class="flecha-contenedor">
         <div class="flecha-animada">
-          <img src="./images/green-arrow.png" alt="Flecha animada">
+          <img src="./icons/green-arrow.png" alt="Flecha animada">
         </div>
       </div>
     </div>
@@ -168,6 +168,7 @@ Vamos a agregar esta regla.
       }
     }
   }
+}
 ```
 <br/>
 
@@ -233,6 +234,7 @@ Ahora, ¿podrías hacer una animación que ahora mueva de arriba a abjo la flech
       }
     }
   }
+}
 ```
 <br/>
 

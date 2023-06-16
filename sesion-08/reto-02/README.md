@@ -39,14 +39,16 @@ Vamos a agregar esas propiedades extra en nuestro código:
   text-decoration: none;
   text-shadow: #025157 1px 1px 2px;
   transition: color .3s ease-in-out;
+  transition: font-size 3s;
 
   &:hover {
     color:#67b54b;
+    font-size: 30px;
   }
 }
 ```
 
-::Pro-tip 
+:: TIP
 
 ¿Puedes agregar más transiciones en una sola línea? Intenta hacerlo con más propiedades en la línea de `transition`, pero puedes usar `transition: all ...` si el intervalo de tiempo es el mismo para todas las transiciones.
 

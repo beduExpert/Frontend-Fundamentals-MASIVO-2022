@@ -2,7 +2,7 @@
 ## Introducción
 Nuestro proyecto ya casi está concluido. Ahora es momento de agregarle algunos elementos qué permitirán hacer de este un sitio atractivo y con cierta interactividad.
 
-Como lo viste durante el prework, las transiciones y animaciones dan "vida" a nuestra página, sin necesidad todavía de usar Javascript. CSS tiene algunos trucos bajo la manga que hacen más interesante la presentación de tu página. Si bien deben usarse con cuidado, las transiciones y aniumaciones son casi obligadas en todos los desarrollos web modernos.
+Como lo viste durante el prework, las transiciones y animaciones dan "vida" a nuestra página, sin necesidad todavía de usar Javascript. CSS tiene algunos trucos bajo la manga que hacen más interesante la presentación de tu página. Si bien deben usarse con cuidado, las transiciones y animaciones son casi obligadas en todos los desarrollos web modernos.
 
 ## Objetivo
 1. Crear una nueva página de nuestro proyecto.

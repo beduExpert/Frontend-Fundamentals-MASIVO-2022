@@ -38,7 +38,7 @@
         Ecommerce Revenue 20%
       </h3>
       <div class="results">
-        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_cart.png" alt="Cart icon">
+        <img src="https://indyme.com/wp-content/uploads/2020/11/shopping-cart-icon.png" alt="Cart icon">
         <p>22% of monthly revenue influenced by content</p>
       </div>
     </div>

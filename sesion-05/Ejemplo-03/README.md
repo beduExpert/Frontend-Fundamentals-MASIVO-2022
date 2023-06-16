@@ -29,7 +29,7 @@ Agreguemos una clase al banner en el media-query y modifiquemos sus estilos:
   <!-- Contenido previo al banner -->
   <figure class="banner">
     <img
-      src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png"
+      src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png"
       alt="Capterra"
     />
   </figure>
